@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R4CEHUB | Power Has Sound</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Unbounded:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.png">
+</head>
+<body>
+
+<nav class="navbar">
+    <a href="#home" class="logo">
+        R4CE<span class="dot"></span>
+    </a>
+
+    <ul class="nav-links">
+        <li><a href="#home" class="nav-link">Старт</a></li>
+        <li><a href="#features" class="nav-link">Філософія</a></li>
+        <li><a href="#models" class="nav-link">Каталог</a></li>
+        <li><a href="#faq" class="nav-link">FAQ</a></li>
+    </ul>
+
+    <div class="nav-actions">
+    </div>
+</nav>
+
+<header id="home" class="hero">
+    <div class="hero-video-background">
+        <video class="hero-video" src="assets/tech.mp4" autoplay loop muted playsinline preload="metadata"></video>
+    </div>
+    <div class="hero-container">
+        <h1>PURE <br> ADR4NALINE</h1>
+        <p>Від безшумної електрики до дикого бензинового реву. Що обираєш?</p>
+        <div class="hero-btns">
+            <a href="#models" class="btn-main">Обрати звіра <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="big-letter-bg">R4</div>
+    </div>
+</header>
+
+<div class="marquee-wrapper">
+  <div class="marquee-track">
+    <div class="marquee-content">
+      ELECTRIC • GAS • TORQUE • RPM • SILENCE • ROAD • SPEED • DIRTY • ATTENTION • OFF-ROAD • ADRENALINE •
+    </div>
+    <div class="marquee-content">
+      ELECTRIC • GAS • TORQUE • RPM • SILENCE • ROAD • SPEED • DIRTY • ATTENTION • OFF-ROAD • ADRENALINE •
+    </div>
+  </div>
+</div>
+
+<section id="features" class="features">
+  <div class="features-grid">
+    <div class="feature-box">
+      <div class="icon-box"><i class="fa-solid fa-microchip"></i></div>
+      <h3>Технологія</h3>
+      <p>Сучасні рішення, продумана інженерія, чиста ефективність.</p>
+    </div>
+    <div class="feature-box">
+      <div class="icon-box"><i class="fa-solid fa-gauge-high"></i></div>
+      <h3>Баланс</h3>
+      <p>Потужність, вага і керування зведені в одну формулу.</p>
+    </div>
+    <div class="feature-box">
+      <div class="icon-box"><i class="fa-solid fa-wave-square"></i></div>
+      <h3>Потенціал</h3>
+      <p>Запас можливостей, який відкривається з досвідом.</p>
+    </div>
+  </div>
+</section>
+
+<section id="models" class="models">
+    <div class="section-header">
+        <h2>BIK4 <span class="highlight">LINEUP</span></h2>
+    </div>
+    <div class="models-slider" id="modelsSlider"></div>
+</section>
+
+<div class="marquee-wrapper2">
+  <h2>OUR <span class="highlight3">PARTN4RS</span></h2>
+  
+  <div class="marquee-track partners-track">
+    <div class="marquee-content2">
+      <img class="partneri" src="assets/redbull.png">
+      <img class="partneri" src="assets/gopro.png">
+      <img class="partneri" src="assets/youtube.png">
+      <img class="partneri" src="assets/surron.png">
+      <img class="partneri" src="assets/talaria.png">
+      <img class="partneri" src="assets/e_ridepro.png">
+      <img class="partneri" src="assets/ktm.png">
+      <img class="partneri" src="assets/yamaha.png">
+      <img class="partneri" src="assets/geon.png">
+    </div>
+    <div class="marquee-content2">
+      <img class="partneri" src="assets/redbull.png">
+      <img class="partneri" src="assets/gopro.png">
+      <img class="partneri" src="assets/youtube.png">
+      <img class="partneri" src="assets/surron.png">
+      <img class="partneri" src="assets/talaria.png">
+      <img class="partneri" src="assets/e_ridepro.png">
+      <img class="partneri" src="assets/ktm.png">
+      <img class="partneri" src="assets/yamaha.png">
+      <img class="partneri" src="assets/geon.png">
+    </div>
+  </div>
+</div>
+
+<section id="faq" class="faq-section">
+    <div class="faq-container">
+        <div class="section-header">
+            <h2>ЧАСТІ <span class="highlight2">ПИТАННЯ</span></h2>
+        </div>
+        
+        <div class="faq-grid">
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>Скільки часу займає доставка?</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Доставка по Україні займає від 7 до 14 днів. Ми працюємо з Новою Поштою та Укр Поштою. Можливе замовлення кур'єром.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>Чи є гарантія та сервіс?</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Так, на нові електробайки діє гарантія 12 місяців або 2000 км пробігу. У нас є власний сервісний центр в Ужгороді для тюнінгу та ремонту.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>Чи можна купити в розстрочку?</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Ми співпрацюємо з Monobank та PrivatBank. Доступна оплата частинами до 6 платежів без відсотків. Деталі уточнюйте у менеджера.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>Потрібні права на Surron/Talaria/ERidePro?</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Для версій L1e (з поворотниками та дзеркалами) потрібні права категорії А1. Версії Off-Road розцінюються як спортивний інвентар.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-left">
+    <div class="footer-brand">
+        <img class="logo-footer" src="assets/favicon.png" alt="R4CE logo">
+        <div class="footer-text">
+        <p class="footer-location">м. Ужгород, Закарпатська область 88000</p>
+        <p class="footer-address">+ (380) 999860393</p>
+        </div>
+    </div>
+    </div>
+    <div class="footer-right">
+      <p class="footer-copy">
+        © 2025 R4CEHUB. All rights reserved
+      </p>
+    </div>
+  </div>
+</footer>
+
+<div class="order-modal" id="orderModal">
+  <div class="order-card">
+    <div class="scan-line"></div>
+    
+    <h3 id="orderTitle">Замовлення <span id="bikeName"></span></h3>
+    
+    <div class="input-wrapper name-wrapper">
+        <input class="order-input" id="inputName" type="text" placeholder="ФІО">
+    </div>
+
+    <div class="input-wrapper city-wrapper">
+        <input class="order-input" id="inputCity" type="text" placeholder="Місто / Адреса пошти">
+    </div>
+
+    <div class="input-wrapper phone-wrapper">
+        <span class="static-prefix">+380</span>
+        <input class="order-input" id="inputPhone" type="tel" placeholder=" (XX) XXX XX XX">
+    </div>
+    
+    <div class="delivery-text">
+        <i class="fa-solid fa-truck-fast"></i> Доставка по Україні 7-14 днів
+    </div>
+
+    <button class="btn-main order-send">Надіслати</button>
+    <div class="order-loader"></div>
+
+    <div class="success-animation">
+        <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+            <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" />
+            <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+        </svg>
+        <div class="success-text">Успішно!<br>Ми вам передзвонимо.</div>
+    </div>
+
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
+
+*, ::after, ::before { margin:0; padding:0; box-sizing:border-box; cursor:auto; }
+body { -webkit-user-select:none; user-select:none; background:#050510; color:#FFF; font-family:'Unbounded',sans-serif; line-height:1.5; overflow-x:hidden; }
+input, textarea { -webkit-user-select:text; user-select:text; }
+img { user-select:none; -webkit-user-drag:none; pointer-events:none; }
+html { scroll-behavior:smooth; }
+
+h1, h2, .btn-line, .btn-main { font-family:'Unbounded',sans-serif; font-weight:900; letter-spacing:.5px; color:#fff; }
+p { color:#8F9BB3; font-weight:400; font-size:1.1rem; font-family:'Unbounded',sans-serif; }
+a, button, .btn-main, .btn-text, .btn-line { cursor:pointer; }
+
+.highlight, .highlight2, .highlight3 { position:relative; display:inline-block; z-index:1; }
+.highlight::after, .highlight2::after, .highlight3::after { content:''; position:absolute; left:0; width:100%; height:10px; background:linear-gradient(90deg,#BD00FF,#00F3FF); z-index:-1; transform:skewX(-10deg); opacity:.7; }
+.highlight::after { bottom:5px; }
+.highlight2::after, .highlight3::after { bottom:1px; }
+
+/* ===== NAVBAR ===== */
+.navbar { position:fixed; top:0; left:0; width:100%; padding:16px 32px; display:flex; justify-content:space-between; align-items:center; background:rgba(5,5,16,.8); backdrop-filter:blur(12px); border-bottom:1px solid rgba(255,255,255,.08); z-index:100; }
+.logo { font-size:1.6rem; font-weight:900; letter-spacing:1px; color:#fff; position:relative; display:flex; align-items:center; gap:6px; cursor:pointer; text-decoration:none; }
+.logo .dot { width:8px; height:8px; border-radius:50%; background:#00F3FF; box-shadow:0 0 10px rgba(0,243,255,.8); animation:pulse 2.5s infinite ease-in-out; }
+.nav-links { display:flex; gap:32px; list-style:none; }
+.nav-links a { color:#8F9BB3; text-decoration:none; font-size:.95rem; transition:.2s; }
+.nav-links a:hover, .nav-links a.active { color:#00F3FF; }
+.nav-cta { padding:8px 22px; border-radius:999px; border:1px solid #00F3FF; color:#00F3FF; font-size:12px; text-decoration:none; transition:.2s; }
+.nav-cta:hover { background:#00F3FF; color:#050510; }
+
+/* ===== MAIN ===== */
+section[id], header[id] { scroll-margin-top:110px; }
+.hero { height:100vh; display:flex; align-items:center; position:relative; overflow:hidden; background:#050510; }
+.hero-video-background { position:absolute; top:0; left:0; width:100%; height:100%; overflow:hidden; z-index:1; }
+.hero-video-background::after { content:''; position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,.4); z-index:2; }
+.hero-video { width:100%; height:100%; object-fit:cover; }
+.hero-container { position:relative; z-index:3; width:100%; max-width:1400px; margin:0 auto; padding:0 40px; }
+.hero h1 { font-size:7vw; line-height:.9; margin-bottom:30px; color:#fff; }
+.hero p { max-width:520px; margin-bottom:42px; color:#8F9BB3; font-size:1.1rem; }
+.hero-btns { display:flex; gap:22px; align-items:center; }
+.hero .btn-main { background:0 0; color:#fff; padding:18px 42px; border-radius:999px; border:1px solid #fff; font-weight:600; font-size:15px; text-transform:uppercase; text-decoration:none; display:inline-flex; align-items:center; gap:10px; transition:.4s; font-family:'Unbounded',sans-serif; }
+.hero .btn-main:hover { background:#00F3FF; border-color:#00F3FF; color:#050510; box-shadow:0 0 25px rgba(0,243,255,.35); }
+.btn-text { color:#fff; text-decoration:none; font-weight:600; display:flex; align-items:center; gap:10px; transition:.3s; font-family:'Unbounded',sans-serif; }
+.btn-text:hover { color:#00F3FF; }
+.big-letter-bg { position:absolute; right:-5%; top:50%; transform:translateY(-50%); font-size:40vw; font-weight:900; font-family:'Unbounded',sans-serif; color:rgba(255,255,255,.05); z-index:2; pointer-events:none; }
+
+/* ===== MARQUEE ===== */
+.marquee-wrapper, .marquee-wrapper2 { overflow: hidden; white-space: nowrap; padding: 40px 0; border-top: 1px solid rgba(255,255,255,.1); border-bottom: 1px solid rgba(255,255,255,.1); background: rgba(255,255,255,.01); width: 100%; }
+.marquee-wrapper2 { font-size: 25px; display: flex; flex-direction: column; align-items: center; }
+.marquee-track { display: flex; width: max-content; animation: scrollLoop 20s linear infinite; }
+.partners-track { animation-duration: 35s; }
+.marquee-content { font-family: 'Unbounded',sans-serif; font-weight: 900; font-size: 4rem; color: transparent; -webkit-text-stroke: 2px #36005a; padding-right: 60px; flex-shrink: 0; }
+.marquee-content2 { display: inline-flex; align-items: center; gap: 100px; padding-right: 60px; padding-top: 50px; flex-shrink: 0; }
+.partneri { max-height: 50px; width: auto; object-fit: contain; }
+
+/* ===== FEATURES ===== */
+.features { padding:50px 0; }
+.features-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:30px; padding:0 40px; max-width:1400px; margin:0 auto; perspective:1200px; }
+.feature-box { position:relative; padding:20px; border-radius:20px; background:#0F0F1A; border:1px solid rgba(255,255,255,.12); transform-style:preserve-3d; transition:transform .15s ease-out,box-shadow .25s; will-change:transform; overflow:hidden; }
+.feature-box:hover { box-shadow:0 25px 60px rgba(0,0,0,.45); }
+.feature-box .icon-box, .feature-box h3, .feature-box p { transform:translateZ(20px); pointer-events:none; }
+.icon-box { font-size:2.5rem; color:#00F3FF; margin-bottom:20px; }
+
+/* ===== MODELS ===== */
+.models { padding:50px 0; }
+.section-header { text-align:center; margin-bottom:80px; }
+.section-header h2 { font-size:3.5rem; text-shadow:0 0 20px rgba(0,0,0,.5); }
+.models-slider { display:grid; grid-template-columns:repeat(auto-fit,minmax(350px,1fr)); gap:40px; max-width:1400px; margin:0 auto; padding:0 40px; }
+.model-item { background:#0F0F1A; border-radius:24px; overflow:hidden; border:1px solid rgba(255,255,255,.1); transition:.3s; }
+.model-item:hover { border-color:#00F3FF; }
+.model-img-wrap { height:350px; overflow:hidden; position:relative; background:#0a0a15; }
+.model-img-wrap img { width:100%; height:100%; object-fit:cover; transition:.5s; }
+.model-item:hover img { transform:scale(1.05); }
+.price-tag { position:absolute; top:20px; right:20px; background:rgba(0,0,0,.6); backdrop-filter:blur(5px); padding:8px 15px; border:1px solid rgba(255,255,255,.2); border-radius:30px; font-weight:700; font-family:'Unbounded',sans-serif; }
+.stock-badge { position:absolute; bottom:20px; left:20px; padding:6px 14px; border-radius:20px; font-size:11px; font-weight:700; letter-spacing:1px; text-transform:uppercase; backdrop-filter:blur(6px); }
+.stock-badge.in { background:rgba(0,243,255,.15); border:1px solid #00F3FF; color:#00F3FF; }
+.stock-badge.out { background:rgba(255,60,60,.15); border:1px solid #ff3c3c; color:#ff3c3c; }
+.model-info { padding:30px; text-align:center; }
+.specs-minimal { list-style:none; display:flex; justify-content:center; gap:20px; margin-bottom:25px; color:#8F9BB3; border-bottom:1px solid rgba(255,255,255,.1); padding-bottom:20px; font-family:'Unbounded',sans-serif; }
+.btn-line { width:100%; padding:14px 50px; border-radius:30px; background:0 0; border:1px solid #fff; color:#fff; font-weight:600; text-transform:uppercase; transition:.4s; font-family:'Unbounded',sans-serif; }
+.btn-line:hover { background:#00F3FF; color:#000; border:1px solid #00F3FF; box-shadow:0 0 30px rgba(255,255,255,.3); }
+.btn-line:disabled { opacity:.4; cursor:not-allowed; }
+
+/* ===== ORDER MODAL & CARD ===== */
+.order-modal { position:fixed; inset:0; display:flex; align-items:center; justify-content:center; background:rgba(0,0,0,.6); backdrop-filter:blur(14px); opacity:0; pointer-events:none; transition:.35s; z-index:999; perspective:1200px; }
+.order-modal.active { opacity:1; pointer-events:auto; }
+
+.order-card { position: relative; width: 480px; min-height: 300px;padding: 40px; background: #0F0F1A; 
+    border: 1px solid rgba(255,255,255,.12); border-radius: 25px; transform-style: preserve-3d; 
+    transition: transform .15s ease-out, box-shadow .25s; will-change: transform; overflow: hidden;
+    display: flex;flex-direction: column;justify-content: center; }
+
+.order-modal.active .order-card { box-shadow:0 25px 60px rgba(0,0,0,.45); }
+
+.order-card h3 { transform:translateZ(30px); text-align:center; font-weight:100; letter-spacing:1px; color:#fff; font-size:15px; }
+.order-card h3 span { display: block; letter-spacing: 0px;font-weight: 700; font-size: 20px; color: #00F3FF; text-shadow: 0 0 35px #00F3FF;
+}
+
+/* ===== FORMS / SUCCESS ANIMATIONS ===== */
+.input-wrapper {width:100%; margin:10px 0; padding:16px 22px; border-radius:999px; background:rgba(255,255,255,.03); border:1px solid rgba(255,255,255,.14); display:flex; align-items:center; transition:.3s; }
+.input-wrapper:focus-within { background:rgba(255,255,255,.05); border-color:#fff; }
+.input-wrapper.error { border-color:#ff0000; animation:shake .35s forwards; }
+
+.static-prefix { color:#666; font-size: 15px;font-weight:400; font-family:'Unbounded',sans-serif; user-select:none; pointer-events:none; padding-left:20%; }
+.order-input { background:transparent; border:none; outline:none; color:#ffffff; font-family:'Unbounded',sans-serif; width:100%; padding:0; margin:0; font-size: 15px;}
+.order-input::placeholder { color:#444; }
+
+.delivery-text { text-align:center; color:#8F9BB3; font-size:0.9rem; margin-bottom:20px; font-family:'Unbounded',sans-serif; display:flex; align-items:center; justify-content:center; gap:8px; }
+.delivery-text i { color:#00F3FF; }
+
+.order-send { width:100%; padding:14px 0; border-radius:999px; border:1px solid #fff; background:none; color:#fff; font-weight:700; letter-spacing:1px; text-transform:uppercase; cursor:pointer; transition:.3s; transform:translateZ(30px); }
+.order-send:hover { background:#00F3FF; border-color:#00F3FF; color:#050510; box-shadow:0 0 24px rgba(0,243,255,.4); }
+
+.scan-line { position:absolute; inset:0; background:linear-gradient(transparent,rgba(0,243,255,.12),transparent); pointer-events:none; transform:translateY(-120%); }
+.order-modal.active .scan-line { animation:scan 3s linear infinite; }
+
+.order-loader { width:44px; height:44px; margin:26px auto 0; border-radius:50%; border:3px solid rgba(255,255,255,.15); border-top-color:#00F3FF; display:none; animation:spin 1s linear infinite; }
+.order-card.success > *:not(.success-animation) { display: none !important; }
+.order-card.success { box-shadow:0 0 70px rgba(0, 255, 136, 0.4); }
+
+.success-animation { display: none; flex-direction: column; align-items: center; justify-content: center; height: 100%; width: 100%; position: absolute; inset: 0; }
+.order-card.success .success-animation { display: flex; }
+
+.checkmark { width: 100px; height: 100px; border-radius: 50%; display: block; stroke-width: 3; stroke: #00FF88; stroke-miterlimit: 10; margin-bottom: 25px; box-shadow: inset 0px 0px 0px #00FF88; animation: scale .3s ease-in-out .9s both; }
+.checkmark__circle { stroke-dasharray: 166; stroke-dashoffset: 166; stroke-width: 3; stroke-miterlimit: 10; stroke: #00FF88; fill: none; animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards; }
+.checkmark__check { transform-origin: 50% 50%; stroke-dasharray: 48; stroke-dashoffset: 48; stroke: #00FF88; animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards; }
+.success-text { text-align: center; color: #fff; font-family: 'Unbounded', sans-serif; font-size: 1.3rem; font-weight: 100; letter-spacing: 1px; opacity: 0; animation: fadeIn 0.5s ease-out 1.1s forwards; line-height: 1.5; }
+
+/* ===== KEYFRAMES ===== */
+@keyframes pulse { 0%,100%{transform:scale(1);opacity:.6} 50%{transform:scale(1.6);opacity:1} }
+@keyframes scrollLoop { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+@keyframes shake { 0%{transform:translateX(0)} 25%{transform:translateX(-6px)} 50%{transform:translateX(6px)} 75%{transform:translateX(-4px)} 100%{transform:translateX(0)} }
+@keyframes spin { to{transform:rotate(360deg)} }
+@keyframes stroke { 100% { stroke-dashoffset: 0; } }
+@keyframes scale { 0%, 100% { transform: none; } 50% { transform: scale3d(1.1, 1.1, 1); } }
+@keyframes fadeIn { 100% { opacity: 1; } }
+
+/* ===== FAQ SECTION ===== */
+.faq-section { padding: 100px 0; }
+.faq-container { max-width: 800px; margin: 0 auto; padding: 0 20px; }
+
+.faq-item { margin-bottom: 15px; border: 1px solid rgba(255,255,255,0.1); border-radius: 50px; overflow: hidden; transition: 0.3s; background: transparent; }
+.faq-item:hover { border-color: rgba(255, 255, 255, 0.3); }
+.faq-item.active { border-color: #00F3FF; box-shadow: 0 0 20px rgba(0,243,255,0.1); }
+
+.faq-question { width: 100%; padding: 20px 25px; background: transparent; border: none; display: flex; justify-content: space-between; align-items: center; color: #fff; font-family: 'Unbounded', sans-serif; font-size: 1.1rem; font-weight: 100; cursor: pointer; text-align: left; transition: 0.3s; user-select: none; }
+
+.faq-question span, 
+.faq-question i { cursor: pointer; }
+.faq-question i { color: #00F3FF; transition: transform 0.3s; }
+
+.faq-item.active .faq-question i { transform: rotate(180deg); }
+.faq-item.active .faq-question { color: #00F3FF; }
+
+.faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out;}
+.faq-answer p { font-style: italic; padding: 0 25px 25px; color: #8F9BB3; font-size: 0.95rem; line-height: 1.6; margin: 0; }
+
+.faq-item.active .faq-question i { transform: rotate(180deg); }
+.faq-item.active .faq-question { color: #00F3FF; }
+
+/* ===== FOOTER ===== */
+.site-footer { background:#020205; border-top:1px solid rgba(255,255,255,.08); padding:25px 0; }
+.footer-container { max-width:1400px; margin:0 auto; display:flex; justify-content:space-between; align-items:center; gap:30px; }
+.footer-left { display:flex; flex-direction:column; gap:8px; }
+.footer-brand { display:flex; align-items:center; gap:14px; }
+.logo-footer { width:42px; height:42px; object-fit:contain; filter:drop-shadow(0 0 6px rgba(0,243,255,.35)); }
+.footer-text { display:flex; flex-direction:column; line-height:1.3; }
+.footer-location, .footer-address, .footer-copy { font-size:15px; }
+
+document.addEventListener("DOMContentLoaded",()=>{
+
+/* ================= MODELS ================= */
+
+const slider=document.getElementById("modelsSlider");
+if(slider && typeof bikes!=="undefined"){
+  bikes.forEach(b=>{
+    const c=document.createElement("div");
+    c.className="model-item";
+    c.innerHTML=`
+      <div class="model-img-wrap">
+        <img src="${b.image}">
+        <div class="price-tag">${b.price}</div>
+        <div class="stock-badge ${b.stock?"in":"out"}">
+          ${b.stock?"В НАЯВНОСТІ":"НЕМАЄ В НАЯВНОСТІ"}
+        </div>
+      </div>
+      <div class="model-info">
+        <h3>${b.name}</h3>
+        <ul class="specs-minimal">${b.specs.map(s=>`<li>${s}</li>`).join("")}</ul>
+        <button class="btn-line" ${b.stock?"":"disabled"}>Замовити</button>
+      </div>`;
+    slider.appendChild(c);
+  });
+}
+
+/* ================= FEATURE 3D ================= */
+
+document.querySelectorAll(".feature-box").forEach(el=>{
+  el.onmousemove=e=>{
+    const r=el.getBoundingClientRect(),
+    x=e.clientX-r.left,
+    y=e.clientY-r.top;
+    el.style.transform=`rotateX(${-(y-r.height/2)/12}deg) rotateY(${(x-r.width/2)/12}deg)`;
+  };
+  el.onmouseleave=()=>el.style.transform="rotateX(0) rotateY(0)";
+});
+
+/* ================= FAQ ================= */
+
+document.querySelectorAll(".faq-item").forEach(item=>{
+  const q=item.querySelector(".faq-question"),
+        a=item.querySelector(".faq-answer");
+  q.onclick=()=>{
+    document.querySelectorAll(".faq-item").forEach(i=>{
+      if(i!==item){
+        i.classList.remove("active");
+        i.querySelector(".faq-answer").style.maxHeight=null;
+      }
+    });
+    item.classList.toggle("active");
+    a.style.maxHeight=item.classList.contains("active")?a.scrollHeight+"px":null;
+  };
+});
+
+/* ================= NAV ACTIVE ================= */
+
+const navLinks=[...document.querySelectorAll(".nav-link")],
+      sections=[...document.querySelectorAll("section[id],header[id]")];
+
+const setActiveNav=()=>{
+  const pos=window.scrollY+160;
+  sections.forEach(s=>{
+    if(pos>=s.offsetTop&&pos<s.offsetTop+s.offsetHeight){
+      navLinks.forEach(l=>l.classList.toggle("active",l.getAttribute("href")==="#"+s.id));
+    }
+  });
+};
+window.addEventListener("scroll",setActiveNav);
+window.addEventListener("load",setActiveNav);
+
+/* ================= ORDER MODAL ================= */
+
+const modal=document.getElementById("orderModal"),
+      card=modal.querySelector(".order-card"),
+      bikeName=document.getElementById("bikeName"),
+      inName=document.getElementById("inputName"),
+      inCity=document.getElementById("inputCity"),
+      inPhone=document.getElementById("inputPhone"),
+      wName=document.querySelector(".name-wrapper"),
+      wCity=document.querySelector(".city-wrapper"),
+      wPhone=document.querySelector(".phone-wrapper"),
+      loader=modal.querySelector(".order-loader"),
+      sendBtn=document.querySelector(".order-send");
+
+document.addEventListener("click",e=>{
+  const btn=e.target.closest(".btn-line");
+  if(!btn||btn.disabled)return;
+  bikeName.textContent=btn.closest(".model-item").querySelector("h3").textContent;
+  [inName,inCity,inPhone].forEach(i=>i.value="");
+  [wName,wCity,wPhone].forEach(w=>w.classList.remove("error"));
+  card.classList.remove("success");
+  modal.classList.add("active");
+  setTimeout(()=>inName.focus(),80);
+});
+
+modal.onclick=e=>{if(e.target===modal)modal.classList.remove("active")};
+
+card.onmousemove=e=>{
+  const r=card.getBoundingClientRect(),
+  x=e.clientX-r.left,
+  y=e.clientY-r.top;
+  card.style.transform=`rotateX(${-(y-r.height/2)/12}deg) rotateY(${(x-r.width/2)/12}deg)`;
+};
+card.onmouseleave=()=>card.style.transform="rotateX(0) rotateY(0)";
+
+inPhone.oninput=()=>{
+  let d=inPhone.value.replace(/\D/g,"").slice(0,9),f="";
+  if(d.length>0)f+="("+d.slice(0,2);
+  if(d.length>=2)f+=") ";
+  if(d.length>2)f+=d.slice(2,5);
+  if(d.length>5)f+=" "+d.slice(5,7);
+  if(d.length>7)f+=" "+d.slice(7,9);
+  inPhone.value=f;
+  wPhone.classList.remove("error");
+};
+
+inName.oninput=()=>wName.classList.remove("error");
+inCity.oninput=()=>wCity.classList.remove("error");
+
+sendBtn.onclick=()=>{
+  let err=false;
+  if(inName.value.trim().length<2){wName.classList.remove("error");void wName.offsetWidth;wName.classList.add("error");err=true;}
+  if(inCity.value.trim().length<2){wCity.classList.remove("error");void wCity.offsetWidth;wCity.classList.add("error");err=true;}
+  if(inPhone.value.replace(/\D/g,"").length!==9){wPhone.classList.remove("error");void wPhone.offsetWidth;wPhone.classList.add("error");err=true;}
+  if(err)return;
+
+  loader.style.display="block";
+  setTimeout(()=>{loader.style.display="none";card.classList.add("success")},2200);
+  setTimeout(()=>modal.classList.remove("active"),5500);
+};
+
+});

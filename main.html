@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R4CEHUB | NO LIMITS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Unbounded:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.png">
+</head>
+<body>
+
+<nav class="navbar">
+    <a href="#home" class="logo">
+        R4CEHUB<span class="dot"></span>
+    </a>
+
+    <ul class="nav-links">
+        <li><a href="#home" class="nav-link" data-lang="nav_start">Старт</a></li>
+        <li><a href="#features" class="nav-link" data-lang="nav_phil">ДНК</a></li>
+        <li><a href="#models" class="nav-link" data-lang="nav_cat">Каталог</a></li>
+        <li><a href="#faq" class="nav-link" data-lang="nav_faq">FAQ</a></li>
+    </ul>
+
+    <div class="nav-actions">
+        <div class="lang-wrapper">
+            <input type="checkbox" id="langToggle">
+            
+            <label for="langToggle" class="lang-text ua-label">UA</label>
+            
+            <label for="langToggle" class="switch-track">
+                <span class="switch-knob"></span>
+            </label>
+            
+            <label for="langToggle" class="lang-text en-label">EN</label>
+        </div>
+    </div>
+</nav>
+
+<header id="home" class="hero">
+    <div class="hero-video-background">
+        <video class="hero-video" src="assets/tech.mp4" autoplay loop muted playsinline preload="metadata"></video>
+    </div>
+    <div class="hero-container">
+        <h1>PURE <br> ADR4NALINE</h1>
+        <p data-lang="hero_desc">Від безшумної електрики до дикого бензинового реву. Що обираєш?</p>
+        <div class="hero-btns">
+            <a href="#models" class="btn-main"><span data-lang="hero_btn">Обрати звіра</span> <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="big-letter-bg">R4</div>
+    </div>
+</header>
+
+<div class="marquee-wrapper">
+  <div class="marquee-track">
+    <div class="marquee-content">
+      ELECTRIC • GAS • TORQUE • RPM • SILENCE • ROAD • SPEED • DIRTY • ATTENTION • OFF-ROAD • ADRENALINE •
+    </div>
+    <div class="marquee-content">
+      ELECTRIC • GAS • TORQUE • RPM • SILENCE • ROAD • SPEED • DIRTY • ATTENTION • OFF-ROAD • ADRENALINE •
+    </div>
+  </div>
+</div>
+
+<section id="features" class="features">
+  <div class="features-grid">
+    <div class="feature-box">
+      <div class="icon-box"><i class="fa-solid fa-microchip"></i></div>
+      <h3 data-lang="feat_1_title">Технологія</h3>
+      <p data-lang="feat_1_desc">Сучасні рішення, продумана інженерія, чиста ефективність.</p>
+    </div>
+    <div class="feature-box">
+      <div class="icon-box"><i class="fa-solid fa-gauge-high"></i></div>
+      <h3 data-lang="feat_2_title">Баланс</h3>
+      <p data-lang="feat_2_desc">Потужність, вага і керування зведені в одну формулу.</p>
+    </div>
+    <div class="feature-box">
+      <div class="icon-box"><i class="fa-solid fa-wave-square"></i></div>
+      <h3 data-lang="feat_3_title">Потенціал</h3>
+      <p data-lang="feat_3_desc">Запас можливостей, який відкривається з досвідом.</p>
+    </div>
+  </div>
+</section>
+
+<section id="models" class="models">
+    <div class="section-header">
+        <h2>BIK4 <span class="highlight" data-lang="h_lineup">LINEUP</span></h2>
+    </div>
+    <div class="models-slider" id="modelsSlider"></div>
+</section>
+
+<div class="marquee-wrapper2">
+  <h2>OUR <span class="highlight3" data-lang="h_partners">PARTN4RS</span></h2>
+  
+  <div class="marquee-track partners-track">
+    <div class="marquee-content2">
+      <img class="partneri" src="assets/redbull.png">
+      <img class="partneri" src="assets/gopro.png">
+      <img class="partneri" src="assets/youtube.png">
+      <img class="partneri" src="assets/surron.png">
+      <img class="partneri" src="assets/talaria.png">
+      <img class="partneri" src="assets/e_ridepro.png">
+      <img class="partneri" src="assets/ktm.png">
+      <img class="partneri" src="assets/yamaha.png">
+      <img class="partneri" src="assets/geon.png">
+    </div>
+    <div class="marquee-content2">
+      <img class="partneri" src="assets/redbull.png">
+      <img class="partneri" src="assets/gopro.png">
+      <img class="partneri" src="assets/youtube.png">
+      <img class="partneri" src="assets/surron.png">
+      <img class="partneri" src="assets/talaria.png">
+      <img class="partneri" src="assets/e_ridepro.png">
+      <img class="partneri" src="assets/ktm.png">
+      <img class="partneri" src="assets/yamaha.png">
+      <img class="partneri" src="assets/geon.png">
+    </div>
+  </div>
+</div>
+
+<section id="faq" class="faq-section">
+    <div class="faq-container">
+        <div class="section-header">
+            <h2><span data-lang="h_faq_pre">ЧАСТІ</span> <span class="highlight2" data-lang="h_faq">ПИТАННЯ</span></h2>
+        </div>
+        
+        <div class="faq-grid">
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span data-lang="faq_q1">Скільки часу займає доставка?</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p data-lang="faq_a1">Доставка по Україні займає від 7 до 14 днів. Ми працюємо з Новою Поштою та Укр Поштою. Можливе замовлення кур'єром.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span data-lang="faq_q2">Чи є гарантія та сервіс?</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p data-lang="faq_a2">Так, на нові електробайки діє гарантія 12 місяців або 2000 км пробігу. У нас є власний сервісний центр в Ужгороді для тюнінгу та ремонту.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span data-lang="faq_q3">Чи можна купити в розстрочку?</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p data-lang="faq_a3">Ми співпрацюємо з Monobank та PrivatBank. Доступна оплата частинами до 6 платежів без відсотків. Деталі уточнюйте у менеджера.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span data-lang="faq_q4">Потрібні права на Surron/Talaria/ERidePro?</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p data-lang="faq_a4">Для версій L1e (з поворотниками та дзеркалами) потрібні права категорії А1. Версії Off-Road розцінюються як спортивний інвентар.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-left">
+    <div class="footer-brand">
+        <img class="logo-footer" src="assets/favicon.png" alt="R4CE logo">
+        <div class="footer-text">
+        <p class="footer-location" data-lang="footer_loc">м. Ужгород, Закарпатська область 88000</p>
+        <p class="footer-address">+ (380) 999860393</p>
+        </div>
+    </div>
+    </div>
+    <div class="footer-right">
+      <p class="footer-copy">
+        © 2025 by R4CE.
+      </p>
+    </div>
+  </div>
+</footer>
+
+<div class="order-modal" id="orderModal">
+  <div class="order-card">
+    <div class="scan-line"></div>
+    
+    <h3 id="orderTitle"><span data-lang="mod_title" style="display:inline; font-weight:100; font-size:15px; text-shadow:none; color:white;">Замовлення</span> <span id="bikeName"></span></h3>
+    
+    <div class="input-wrapper name-wrapper">
+        <input class="order-input" id="inputName" type="text" placeholder="ФІО" data-pl="pl_name">
+    </div>
+
+    <div class="input-wrapper city-wrapper">
+        <input class="order-input" id="inputCity" type="text" placeholder="Місто / Область" data-pl="pl_city">
+    </div>
+
+    <div class="input-wrapper branch-wrapper">
+        <input class="order-input" id="inputBranch" type="text" data-pl="pl_branch">
+    </div>
+
+    <div class="input-wrapper zip-wrapper">
+        <input class="order-input" id="inputZip" type="text" data-pl="pl_zip">
+    </div>
+
+    <div class="input-wrapper phone-wrapper">
+        <span class="static-prefix">+380</span>
+        <input class="order-input" id="inputPhone" type="tel" placeholder="(XX) XXX XX XX">
+    </div>
+    
+    <div class="delivery-text">
+        <i class="fa-solid fa-truck-fast"></i> <span data-lang="del_text">Доставка по Україні 7-14 днів</span>
+    </div>
+
+    <button class="btn-main order-send" data-lang="btn_send">Надіслати</button>
+    <div class="order-loader"></div>
+
+    <div class="success-animation">
+        <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+            <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" />
+            <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+        </svg>
+        <div class="success-text" data-lang="success_txt">Успішно!<br>Ми вам передзвонимо.</div>
+    </div>
+
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
