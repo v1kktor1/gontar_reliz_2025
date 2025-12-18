@@ -2,8 +2,8 @@
 
 const translations = {
     ua: {
-        nav_start: "ВХІД",
-        nav_phil: "ДНК",
+        nav_entry: "ВХІД",
+        nav_dna: "ДНК",
         nav_cat: "КАТАЛОГ",
         nav_faq: "FAQ",
         
@@ -48,8 +48,8 @@ const translations = {
     },
 
     en: {
-        nav_start: "ENTRY",
-        nav_phil: "DNA",
+        nav_entry: "ENTRY",
+        nav_dna: "DNA",
         nav_cat: "GARAGE",
         nav_faq: "INFO",
         

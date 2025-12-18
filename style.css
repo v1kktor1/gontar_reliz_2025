@@ -1,11 +1,9 @@
-*, ::after, ::before { margin:0; padding:0; box-sizing:border-box; cursor:auto; }
+*, ::after, ::before { margin:0; padding:0; box-sizing:border-box; }
 body { -webkit-user-select:none; user-select:none; background:#050510; color:#FFF; font-family:'Unbounded',sans-serif; line-height:1.5; overflow-x:hidden; }
 input, textarea { -webkit-user-select:text; user-select:text; }
 img { user-select:none; -webkit-user-drag:none; pointer-events:none; }
 html { scroll-behavior:smooth; }
 
-h1, h2, .btn-line, .btn-main { font-family:'Unbounded',sans-serif; font-weight:900; letter-spacing:.5px; color:#fff; }
-p { color:#8F9BB3; font-weight:400; font-size:1.1rem; font-family:'Unbounded',sans-serif; }
 a, button, .btn-main, .btn-text, .btn-line { cursor:pointer; }
 
 .highlight, .highlight2, .highlight3 { position:relative; display:inline-block; z-index:1; }
@@ -162,8 +160,7 @@ section[id], header[id] { scroll-margin-top:110px; }
 .faq-question i { cursor: pointer; }
 .faq-question i { color: #00F3FF; transition: transform 0.3s; }
 
-.faq-item.active .faq-question i { transform: rotate(180deg); }
-.faq-item.active .faq-question { color: #00F3FF; }
+.faq-item.active .faq-question i { transform: rotate(180deg); color: #00F3FF;}
 
 .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out;}
 .faq-answer p { font-style: italic; padding: 0 25px 25px; color: #8F9BB3; font-size: 0.95rem; line-height: 1.6; margin: 0; }
