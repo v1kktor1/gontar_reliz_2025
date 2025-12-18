@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
-    
+    window.scrollTo(0, 0);
+
     // ================= LANGUAGE SWITCHER =================
     let currentLang = 'ua';
     const langToggle = document.getElementById('langToggle');
